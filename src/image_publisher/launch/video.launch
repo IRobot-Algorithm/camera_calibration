@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+    <group ns="video">
+        <param name="video_path"        value="$(find image_publisher)/video/test.mp4"/>
+        <node pkg="image_publisher"   name="Video"      type="Video"      output="screen"></node>
+    </group>
+
+</launch>

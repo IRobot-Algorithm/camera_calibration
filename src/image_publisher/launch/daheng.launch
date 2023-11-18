@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+    <group ns="daheng_camera">
+        <rosparam command="load" file="$(find image_publisher)/config/daheng.yaml" />
+        <node pkg="image_publisher"   name="DahengCamera"      type="DahengCamera"      output="screen"></node>
+    </group>
+
+</launch>

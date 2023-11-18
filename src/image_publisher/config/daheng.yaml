@@ -1,0 +1,15 @@
+camera_id: 1
+
+image_width:  1920
+image_height: 1200
+
+exposure_auto: 0
+exposure_time: 4000
+
+w_auto: 0
+w_red:   1.98
+w_green: 1.0
+w_blue:  1.98
+
+gain_auto: 0
+gain: 12
